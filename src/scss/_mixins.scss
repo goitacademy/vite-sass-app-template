@@ -1,0 +1,11 @@
+@mixin viewport-md {
+  @media (min-width: 767px) {
+    @content;
+  }
+}
+
+@mixin text-gradient {
+	background: var(--hero-name-background);
+	background-clip: text;
+	color: transparent;
+}

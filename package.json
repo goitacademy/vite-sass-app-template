@@ -1,0 +1,26 @@
+{
+  "name": "vite-sass-app-template",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/vite-sass-app-template/",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "fast-glob": "^3.3.1",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "postcss-sort-media-queries": "^5.2.0",
+    "sass": "^1.68.0",
+    "sharp": "^0.32.6",
+    "svgo": "^3.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-image-optimizer": "^1.1.7"
+  }
+}
