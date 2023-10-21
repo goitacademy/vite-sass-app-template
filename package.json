@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/vite-sass-app-template/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "npx vite build --watch"
   },
   "browserslist": [
     "cover 99.5%"
